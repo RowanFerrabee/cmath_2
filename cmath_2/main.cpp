@@ -8,7 +8,11 @@ using namespace std;
 
 int main(){
     
-    Fraction f1(1,2), f2(10/9), f3(4);
+    //A lot of random shit; check the header file for 
+    //pages and pages of math objects and functions
+
+    
+    Fraction f1(1,2), f2(10/9), f3(4), f4;
     f4 = f1 - f2 * (f3/5);
     cout << f4.printAsMixed() << " equals " << f4.printAsDouble() << endl;
     
@@ -27,7 +31,5 @@ int main(){
     if(toDouble("9.812")==9.812)
         cout << true << endl;
 
-    //A lot of random shit; check the header file for pages and pages of functions
-    
 }
  
