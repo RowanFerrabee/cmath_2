@@ -135,12 +135,6 @@ void printTriangle(int row){
 
 
 
-
-
-
-
-
-
 ComplexNum pow(ComplexNum c, int n){
 
     ComplexNum c2 = c^n;
@@ -480,17 +474,6 @@ void printSqrt(ComplexNum c){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 Fraction::Fraction (int a, int b){
     num = a;
     denom = b;}
@@ -701,14 +684,6 @@ int Fraction::getNum(){
 
 int Fraction::getDenom(){
     return denom;}
-
-
-
-
-
-
-
-
 
 
 
@@ -950,15 +925,6 @@ int* IntSet::passToArray(){
 
 
 
-
-
-
-
-
-
-
-
-
 Array::Array(){
     int arr1[0] = {};
     arr = arr1;
@@ -1118,14 +1084,6 @@ Array Array::operator+(Array a1){
     
     return a2;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1377,13 +1335,6 @@ void Combinatorics::printAll(){
     }
     
 }
-
-
-
-
-
-
-
 
 
 
