@@ -1,18 +1,56 @@
-//
-//  main.cpp
-//  cmath_2
-//
-//  Created by Rowan Ferrabee on 2014-03-25.
-//  Copyright (c) 2014 Rowan Ferrabee. All rights reserved.
-//
 
 #include <iostream>
+#include <string>
+#include <cmath>
+#include "cmath_2.h"
 
-int main(int argc, const char * argv[])
-{
+using namespace std;
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+//class Shape{
+//    
+//public:
+//    virtual void print()=0;
+//    virtual void printShapeName()=0;
+//    virtual double area();
+//    virtual double volume();
+//protected:
+//    string name;
+//    
+//};
+//
+//void Shape::printShapeName(){
+//
+//    cout<<name<<endl;
+//
+//}
+//
+//class Point: public Shape{
+//
+//public:
+//    Point(int a=0, int b=0){x=a;y=b;}
+//    double distance(){return sqrt(x*x+y*y);}
+//    void printPoint(){cout<<x<<","<<y<<endl;}
+//    
+//protected:
+//    int x;
+//    int y;
+//
+//};
+//
+//class Circle: public Point{
+//
+//public:
+//    Circle(int r){radius = r; name = "circle";}
+//    void setPoint(int a, int b){x=a;y=b;}
+//    void printCircle(){cout<<"(x - "<<x<<")^2 +(y - "<<y<<")^2 = "<<radius<<"^2"<<endl;}
+//    double area(){return 3.1415*radius*radius;}
+//private:
+//    int radius;
+//};
+
+int main(){
+    
+        
+    
 }
-
+ 
